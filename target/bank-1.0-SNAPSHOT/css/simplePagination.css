@@ -1,0 +1,45 @@
+.pagination-holder.black {
+    padding: 20px 20px 15px;
+    background: #444 none repeat scroll 0% 0%;
+    border: 1px solid #333;
+    border-radius: 2px;
+}
+
+.pagination-holder {
+    padding: 0px 20px;
+    margin: 10px 0px 20px;
+}
+
+ul.simple-pagination {
+    list-style: none;
+}
+
+.simple-pagination {
+    display: block;
+    overflow: hidden;
+    padding: 0 5px 5px 0;
+    margin: 0;
+}
+
+.simple-pagination ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.simple-pagination li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+span.ellipse.clickable {
+    cursor: pointer;
+}
+
+.ellipse input {
+    width: 3em;
+}
+
+

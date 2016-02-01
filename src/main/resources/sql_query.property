@@ -1,0 +1,34 @@
+#IssuePaymentCard
+issue.payment.card.id.name=id
+issue.payment.card.select=SELECT * FROM issue_payment_card
+issue.payment.card.insert=INSERT INTO issue_payment_card (id, iin, phone, client_name, type_payment_card) VALUES (DEFAULT, ?, ?, ?, ?)
+issue.payment.card.update=UPDATE issue_payment_card SET iin = ?, phone = ?, client_name = ?, type_payment_card = ?
+issue.payment.card.delete=DELETE FROM issue_payment_card
+
+#PaymentCard
+payment.card.id.name=id
+payment.card.select=SELECT * FROM payment_card
+payment.card.insert=INSERT INTO payment_card (id, number, user, type_payment_card, codeword, card_expiry_date, security_code, balance_kzt, balance_rub, balance_usd, blocked) VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+payment.card.update=UPDATE payment_card SET number = ?, user = ?, type_payment_card = ?, codeword = ?, card_expiry_date = ?, security_code = ?, balance_kzt = ?, balance_rub = ?, balance_usd = ?, blocked = ?
+payment.card.delete=DELETE FROM payment_card
+
+#Role
+role.id.name=id
+role.select=SELECT * FROM role
+role.insert=INSERT INTO user (id, name, session_life_time) VALUES (DEFAULT, ?, ?)
+role.update=UPDATE user SET name = ?, session_life_time = ?
+role.delete=DELETE FROM role
+
+#TypePaymentCard
+type.payment.card.id.name=id
+type.payment.card.select=SELECT * FROM type_payment_card
+type.payment.card.insert=INSERT INTO type_payment_card (id, name) VALUES (DEFAULT, ?)
+type.payment.card.update=UPDATE type_payment_card SET name = ?
+type.payment.card.delete=DELETE FROM type_payment_card
+
+#User
+user.id.name=id
+user.select=SELECT * FROM user
+user.insert=INSERT INTO user (id, identifier, iin, password, name, surname, patronymic, role, birthday, active) VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+user.update=UPDATE user SET identifier = ?, iin = ?, password = ?, name = ?, surname = ?, patronymic = ?, role = ?, birthday = ?, active = ?
+user.delete=DELETE FROM user

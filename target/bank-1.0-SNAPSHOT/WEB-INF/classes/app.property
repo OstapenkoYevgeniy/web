@@ -1,0 +1,4 @@
+path.dao.factory=com.john.dao.rdb.RdbDaoFactory
+path.storage.access=com.john.dbcp.ConnectionPool
+path.package.entities=com.john.entity
+path.package.action=com.john.action

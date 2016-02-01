@@ -1,0 +1,5 @@
+JDBC_DRIVER=org.h2.Driver
+JDBC_URL=jdbc:h2:tcp://localhost/~/newbankdb
+DB_USER=admin
+DB_PASSWORD=admin
+MAX_CONNECTION_COUNT=4
